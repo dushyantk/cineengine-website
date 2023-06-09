@@ -949,7 +949,7 @@ section {
   margin-bottom: 0;
 }
 
-.about .content .read-more {
+.about .content .know-more {
   background: var(--color-primary);
   color: var(--color-inverse);
   font-family: var(--font-primary);
@@ -964,19 +964,19 @@ section {
   justify-content: center;
 }
 
-.about .content .read-more i {
+.about .content .know-more i {
   font-size: 18px;
   margin-left: 5px;
   line-height: 0;
   transition: 0.3s;
 }
 
-.about .content .read-more:hover {
+.about .content .know-more:hover {
   background: rgba(var(--color-primary-rgb), 0.8);
   padding-right: 19px;
 }
 
-.about .content .read-more:hover i {
+.about .content .know-more:hover i {
   margin-left: 10px;
 }
 
