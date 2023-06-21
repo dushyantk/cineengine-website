@@ -83,7 +83,10 @@
 
       </nav><!-- End Nav Menu -->
 
-      <a class="btn-getstarted" href="https://demo.cineengine.com">Launch Demo</a>
+      <!--<a class="btn-getstarted" href="https://demo.cineengine.com">Launch Demo</a>-->
+      <button type="button" class="btn btn-primary btn-getstarted" data-toggle="modal" data-target="#demoModal">
+        Launch Demo
+      </button>
 
     </div>
   </header><!-- End Header -->
@@ -1210,6 +1213,23 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!--Demo popup-->
+  <div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="demoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!--<h5 class="modal-title" id="modalLongTitle"></h5>-->
+          <img src="assets/img/CE_Logo_long_320x40.png" alt="CE Logo" class="logo">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe id="demoIframe" src="https://demo.cineengine.com" style="border: none; width: 100%; height: 80vh;"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Email capture Bootstrap Modal -->
 
   <div class="modal fade" id="message-modal" tabindex="-1" role="dialog" aria-labelledby="message-modal-label" aria-hidden="true">

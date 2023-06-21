@@ -229,7 +229,14 @@ section {
     order: 3;
   }
 }
-
+.modal-lg {
+    max-width: calc(100% - 40px) !important;  /* The calculation here makes the modal 20px smaller on each side */
+}
+.modal-title {
+    font-size: 16px;  /* Decrease the size of the text */
+    margin: 0;  /* Remove margin */
+    padding: 5px 0;  /* Add some vertical padding and remove horizontal padding */
+}
 /* Global Header on page scroll
 ------------------------------*/
 .scrolled .header {
